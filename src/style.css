@@ -1,1 +1,52 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: #01501e !important;
+}
+
+h1 {
+  font-size: 3.5rem !important;
+}
+
+.col.iconoabajo {
+  padding: 30px 20px;
+  text-align: right;
+}
+.col.iconoarriba {
+  padding: 30px 20px;
+  text-align: left;
+}
+.col.numerocarta {
+  padding: 20px;
+}
+
+.carta {
+  border-radius: 6px;
+  background-color: white;
+  width: 200px;
+  margin: 50px auto;
+}
+
+.carta-header {
+  padding: 0px 5px;
+  align-items: center;
+}
+
+button.btn.btn-dark {
+  font-size: 15px;
+  border-radius: 0px;
+  padding: 10px 50px;
+}
+
+.palorojo {
+  font-size: 55px;
+}
+
+div#paloarriba {
+  padding-left: 10px;
+}
+
+div#paloabajo {
+  transform: rotate(180deg);
+  padding-left: 10px;
+}
